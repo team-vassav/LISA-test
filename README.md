@@ -34,7 +34,7 @@ At this stage, the parts are cleaned with salt paper, fixed with the ball bearin
 ![8](https://user-images.githubusercontent.com/84219813/164978200-4f657ada-f1ba-46c2-be72-cd0f892d2adf.jpeg)
 ![10](https://user-images.githubusercontent.com/84219813/164978203-969627fd-e35b-4d9f-84f1-a3dfe5b3dd1a.jpeg)
 
-[link] to media
+[link](https://drive.google.com/drive/folders/1CrcSloMZM2NcRToYwONbV37TkEAglia_?usp=sharing) to media
 
 ## 5. Simulation of LISA 🤖
 
