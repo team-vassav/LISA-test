@@ -1,0 +1,16 @@
+.button{
+  background-color: lightblue;
+  border: none;
+  color: black;
+  padding: 20px 35px;
+  margin:24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: yellow;
+}

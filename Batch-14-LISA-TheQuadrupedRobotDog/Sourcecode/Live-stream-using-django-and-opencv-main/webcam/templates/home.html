@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Live Stream</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'home.css' %}">
+    <title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body style="background:black">
+  <center>
+  	<a href="{% url 'index' %}"><h2 style="padding:40px;margin:20px;border:4px solid white;color:white;">Welcome LISA_The Quadruped Live Streaming</h2></a>
+  	<div class="container-sm" style="padding:20px; margin:20px;width:1500px;border: 5px solid white;">
+  		<div><h2 style="color:white;padding-bottom:20px">Camera Controlling Buttons</div>
+		<a href="{% url 'Live' %}">
+			<button class="button btn-outline-primary" style="color: black; font-size:20px;font-weight:12px; ">Start Live  stream</button>
+		</a>
+	    <a href="{% url 'Record' %}">
+	    	<button class="button btn-outline-primary"style="color: black; font-size:20px;font-weight:12px; ">Start Record</button>
+	    </a>
+	    <a href="{% url 'RecordStop' %}">
+	    	<button class="button btn-outline-primary"style="color: black; font-size:20px;font-weight:12px; ">Stop Record</button>
+	    </a>
+	    <a href="{% url 'Takepic' %}">
+	    	<button class="button btn-outline-primary"style="color: black; font-size:20px;font-weight:12px; ">Imagecapture</button>
+	    </a>
+	    <a href="{% url 'Heat' %}">
+	    	<button class="button btn-outline-primary"style="color: black; font-size:20px;font-weight:12px; "> Start Heatmap</button>
+	    </a>
+	     <a href="{% url 'Stopmap' %}">
+	    	<button class="button btn-outline-primary"style="color: black; font-size:20px;font-weight:12px; ">Stop Heatmap</button>
+	    </a>
+	    <a href="{% url 'End' %}">
+	    	<button class="button btn-outline-primary"style="color: black; font-size:20px;font-weight:12px; ">End Live Stream</button>
+	    </a>
+	</div>
+
+   	{%block content%}
+	
+	{%endblock content%}
+  </body>
+</html>
